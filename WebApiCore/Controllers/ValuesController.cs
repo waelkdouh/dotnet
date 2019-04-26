@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using NetStandardLib;
+using Net4._7._2Lib;
 
 namespace WebApiCore.Controllers
 {
@@ -15,9 +15,9 @@ namespace WebApiCore.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            UtilityHelper helper = new UtilityHelper();
+            UtilityHelperNet472 helpertwo = new UtilityHelperNet472();
 
-            return new string[] { "value1", "value2", helper.Calculate(1,3).ToString()};
+            return new string[] { "value1", "value2", helpertwo.Calculate(3,3).ToString()};
         }
 
         // GET api/values/5

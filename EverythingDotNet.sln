@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCore", "WebApiCore\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandardLib", "NetStandardLib\NetStandardLib.csproj", "{90301995-F73D-466A-BF84-827EAC9E5EC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiNet4.7.2", "WebApiNet4.7.2\WebApiNet4.7.2.csproj", "{200C9697-DF48-4A18-8FD1-3BF8A86EE57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net4.7.2Lib", "Net4.7.2Lib\Net4.7.2Lib.csproj", "{C507D235-3B05-4056-A46E-6BB1ECBF7A57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{90301995-F73D-466A-BF84-827EAC9E5EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90301995-F73D-466A-BF84-827EAC9E5EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90301995-F73D-466A-BF84-827EAC9E5EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200C9697-DF48-4A18-8FD1-3BF8A86EE57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200C9697-DF48-4A18-8FD1-3BF8A86EE57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200C9697-DF48-4A18-8FD1-3BF8A86EE57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200C9697-DF48-4A18-8FD1-3BF8A86EE57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C507D235-3B05-4056-A46E-6BB1ECBF7A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C507D235-3B05-4056-A46E-6BB1ECBF7A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C507D235-3B05-4056-A46E-6BB1ECBF7A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C507D235-3B05-4056-A46E-6BB1ECBF7A57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
