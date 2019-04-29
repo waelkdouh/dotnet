@@ -19,7 +19,8 @@ namespace WebApiCore.Controllers
         {
             UtilityHelper helper = new UtilityHelper();
             //UtilityHelperNet472 helpertwo = new UtilityHelperNet472();
-            return new string[] { "value1", "value2", helper.Calculate(3, 3).ToString(), RuntimeInformation.OSDescription };
+
+            return new string[] { "value1", "value2", helper.Calculate(3, 3).ToString(), helper.CreateOneTwoThree().First().ToString(), RuntimeInformation.OSDescription };
             //return new string[] { "value1", "value2", helpertwo.Calculate(3, 3).ToString(), RuntimeInformation.OSDescription };
         }
 
